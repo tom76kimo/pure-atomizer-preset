@@ -1,0 +1,11 @@
+{
+  "name": "pure-atomizer-preset",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "react-md <tom76kimo@gmail.com> (http://react-md.github.io/mdor/)",
+  "license": "MIT"
+}
