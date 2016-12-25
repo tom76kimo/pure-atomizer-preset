@@ -4,8 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "example": "webpack --config examples/webpack.config.js && open examples/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "react-md <tom76kimo@gmail.com> (http://react-md.github.io/mdor/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-atomizer": "^1.0.0",
+    "babel-preset-react": "^6.16.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "webpack": "^1.14.0"
+  }
 }
