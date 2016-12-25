@@ -8,11 +8,11 @@ Object.defineProperty(module.exports, "buildPreset", {
 });
 
 function preset(context, opts) {
-    var atomicConfigPath = opts.atomicConfigPath;
+    // var atomicConfigPath = opts.atomicConfigPath;
     return {
         plugins: [
             require('./babel-purecss-plugin'),
-            ['babel-plugin-atomizer', { configPath: atomicConfigPath }]
+            ['babel-plugin-atomizer', { configPath: __dirname + '/atomic.js' }]
         ]
     };
 }

@@ -5,7 +5,8 @@ var Main = React.createClass({
     render: function () {
         return (
             <div>
-                <div className="pure-button pure-button-primary">Hello!</div>
+                <div className="pure-button pure-button-primary Mend(5px)">Hello!</div>
+                <div className="pure-button pure-button-disabled">World!</div>
             </div>
         );
     }
